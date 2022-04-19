@@ -1,0 +1,70 @@
+strings
+-------
+1. strings are immutable
+
+
+
+TypeError: 'str' object does not support item assignment
+
+formatting
+----------
+%s
+%d
+%f
+
+
+Data Structures
+---------------
+1. lists
+2. dictionaries
+3. tuples
+4. sets
+
+Lists
+-----
+
+similar to arrays in other technologies
+
+what is an array?
+
+1. collection of homogenous data
+2. memory allocation is contigious
+
+
+1. list is a collection of hetrogenous data
+2. memory allocation is not contigious
+3. lists are subscriptable
+4. ordered collection			=>	1, 2, 3, 'four', 'five' , 'six'
+5. list are mutable
+6. lists are enclosed in []
+
+
+
+
+
+
+
+
+
+
+problem - 01
+-------------
+print("{val!s} {val!r} {val!a}".format(val="A"))
+what is r, s and a
+
+
+problem - 02
+------------
+print the following table using formatting
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+
