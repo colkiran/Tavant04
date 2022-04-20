@@ -1,0 +1,27 @@
+Dictionary - Associative arrays
+--------------------------------
+
+d = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
+
+1. also called as associative arrays
+2. it is a ordered collection
+3. all keys in a dictionary is unique
+4. dictionaries are enclosed in {key: val}
+
+Tuple
+-----
+1. immutable list
+2. it is subscriptable
+3. it is ordered collection
+4. it is enclosed in ()
+
+sets
+----
+1. unordered collections
+2. elements of a set is always unique
+3. sets are not subscriptable
+4. set are enclosed in {}
+5. sets are mutable
+
+
+
