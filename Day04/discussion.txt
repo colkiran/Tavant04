@@ -1,0 +1,61 @@
+Functions
+---------
+
+with recursion 
+
+1. find the factorial of a number
+
+2. find the fibanocci series
+
+
+lambdas - anonymous functions with a single expression
+
+syntax  - returns the result of the expr = lambda var1, var2, var3....: expression
+
+
+months = ['apr', 'aug', 'dec', 'feb', 'mar', 'may', 'nov', 'oct', 'jan', 'jun', 'jul', 'sep']
+print(f"months :{months}")
+
+print("-" * 40)
+from calendar import month_name
+# print(list(month_name))
+
+def sortMonths(mon):
+    lst = []
+    for mnt in list(month_name):
+        lst.append(mnt[0:3].lower())
+    if mon in lst:
+        return lst.index(mon)
+
+res = sorted(months, key=sortMonths)
+print(f"res :{res}")
+
+
+scope of a variable
+-------------------
+1. global
+2. local
+3. non local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
