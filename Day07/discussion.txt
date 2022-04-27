@@ -1,0 +1,153 @@
+Packages and Modules
+--------------------
+Packages  - Folders or Directory
+
+2.x ->  __init__.py
+
+
+
+Module - Libraries
+-------------------
+Modules do not have any special Extension => it has the extension .py
+
+
+imptort mymodule
+----------------
+1. convert .py file to .pyc file i.e., convert normal code to bytecode and strore it in a folder __pycache__
+
+
+import mymodule
+import mypackage.mymodule
+from mymodule import MyClass, MyFunction
+from mypackage import mymodule
+from mypackage import *
+
+
+
+Regular Expressions
+-------------------
+
+wild cards -> windows
+
+glob style -> linux
+
+
+*, ?
+
+* => represents a series of characters
+? => single character
+
+
+dir *.txt		=>	* represents the filename => 1 or more characters
+
+dir ?a*.txt		=>	? represents a single character =>
+
+
+My ticket id is 345923963 raised on 24/04/2022
+
+
+
+Basic Regular Expressions
+-------------------------
+^			-	Begning of the string
+$ 			-	End of the string
+
+.			-	single character 
+*			-	zero or more oocurances
+?			-	zero or one occurance
++			-	one or more occurances
+{n}			-	exactly n times
+{n,}		- 	n or more times
+{n, m}		-	min n times and max m times
+()			-	grouping
+[]			-	character class
+|			- 	alternation
+\			-	supressing regular expression
+
+
+
+License Number
+--------------
+
+LCNO-KAR-05-2003-4290
+
+validations
+-----------
+
+LCNO- Remains the same no changes
+
+KAR - KER, TND, APN, TEL, MAH, GOA
+
+05 - 01 - 73		no 00
+
+2003 - 2000+
+
+0001 - 9999			no 0000
+
+
+st = "LCNO-"
+
+res = re.search(r'LCNO-()-()-()', st)
+
+
+
+---------------------------------------------------------------------------
+
+\w				-	Word		-	alpha numeric data
+
+\W				-	non word	-	special characters
+
+\s				-	spaces
+
+\S				-	non spaces
+
+\d				-	digits		-	numeric
+
+\D				-	non digits	-	non numeric
+
+\b				-	word boundary	
+
+\B				- 	non word boundary
+
+\A				-	Begning of the string
+
+\Z				- 	end of the string
+
+
+
+back tracking 		=> reuse regular expressions
+
+
+problem
+-------
+date:
+
+valid date 
+----------
+dd / mm / yyyy
+dd - mm - yyyy
+
+
+invalid date
+------------
+dd - mm / yyyy
+dd / mm - yyyy
+
+dd - 01 - 31
+mm - 01 - 12
+yyyy - 1900+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
