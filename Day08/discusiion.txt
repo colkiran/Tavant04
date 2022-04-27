@@ -1,0 +1,72 @@
+1. string that got rejected (unmatched)
+2. string that matched (matched)
+3. string that is uncheked (yet to be matched)
+
+
+url = "www.google.com / search='%new hindi movies?' % / get_data2019 / fetch_data frm_1 / imdb? %hindi%movies$& / result = page1.aspx"
+
+
+search strings that are - 
+
+	1. before  /
+	2. between /
+	3. after   /
+
+Exceptions
+----------
+sys module
+
+
+File Handling
+-------------
+
+textfile =>		ASCII format
+
+Mode of opening the file
+
+read mode		=> r	- default mode 
+write mode		=> w	- delete the contents of the file, file not existing then create a new file and 
+							add the contents
+append mode		=> a	- with out disturbing the previous contents it will append the new contents into 
+							the file, file not existing then create a new file and add the contents
+
+
+Seek - to move the file handle from one location to another
+
+FL position = seek(offset, whence)
+
+offset 	-	No of bytes that we want to skip
+Whence -	
+			0		-	BOF
+			1		-	CP
+			2		- 	EOF 
+
+tell()	- returns the current position of the file handle
+
+
+Open EMP.csv
+------------
+1. count of males and females in the file
+2. unique list of 
+		a. Department
+		b. Designations
+3. sum of all salaries
+
+Excel files
+-----------
+
+1. xlrd
+2. openpyxl
+3. xlwt
+4. pyxlsb
+7. xlutils
+
+
+
+
+
+ 
+
+
+
+
