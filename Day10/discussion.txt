@@ -1,0 +1,18 @@
+Debug - 10
+Detailed information of any diagnosis
+
+info - 20
+to print confirmation messages when the code is working as expected
+
+warnings - 30
+to give indications when code is not working as expected
+
+Error - 40
+Serious problem and the code is not performing a specific task
+
+Critical - 50
+When the code is unable to continue its execution
+
+
+Monkey Pactching
+----------------

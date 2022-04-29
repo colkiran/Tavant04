@@ -1,0 +1,28 @@
+DEBUG:root:Product of 5 and 10 is 50
+INFO:root:Product of 5 and 10 is 50
+WARNING:root:Product of 5 and 10 is 50
+ERROR:root:Product of 5 and 10 is 50
+CRITICAL:root:Product of 5 and 10 is 50
+INFO:root:======================================================================
+
+DEBUG:root:Product of 30 and 40 is 1200
+INFO:root:Product of 30 and 40 is 1200
+WARNING:root:Product of 30 and 40 is 1200
+ERROR:root:Product of 30 and 40 is 1200
+CRITICAL:root:Product of 30 and 40 is 1200
+INFO:root:======================================================================
+
+DEBUG:root:Product of 12 and 10 is 120
+INFO:root:Product of 12 and 10 is 120
+WARNING:root:Product of 12 and 10 is 120
+ERROR:root:Product of 12 and 10 is 120
+CRITICAL:root:Product of 12 and 10 is 120
+INFO:root:======================================================================
+
+DEBUG:root:Product of 5 and 5 is 25
+INFO:root:Product of 5 and 5 is 25
+WARNING:root:Product of 5 and 5 is 25
+ERROR:root:Product of 5 and 5 is 25
+CRITICAL:root:Product of 5 and 5 is 25
+INFO:root:======================================================================
+%(asctime)s 
